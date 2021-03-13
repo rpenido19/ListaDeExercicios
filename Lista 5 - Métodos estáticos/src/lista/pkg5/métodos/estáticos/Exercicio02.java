@@ -18,64 +18,64 @@ public class Exercicio02 {
             switch (opt) {
 
                 case 1:
-				// 1- Litros para centímetros cúbicos
-					try {
-                    System.out.println("Quantos litros deseja converter? ");
-                    resultado = calc.LitrosParaCentimetrosCubicos(entrada.nextDouble());
-                    System.out.println(resultado + " centímetros cúbicos. ");
-                } catch (InputMismatchException e) {
-                    System.err.println("Erro - Valor digitado inválido. ");
-                    entrada.next();
-                }
-                break;
+                    // 1- Litros para centímetros cúbicos
+                    try {
+                        System.out.println("Quantos litros deseja converter? ");
+                        resultado = calc.LitrosParaCentimetrosCubicos(entrada.nextDouble());
+                        System.out.println(resultado + " centímetros cúbicos. ");
+                    } catch (InputMismatchException e) {
+                        System.err.println("Erro - Valor digitado inválido. ");
+                        entrada.next();
+                    }
+                    break;
 
                 case 2:
-				// 2- Metros cúbicos para litros
-					try {
-                    System.out.println("Quantos metros cúbicos deseja converter? ");
-                    resultado = calc.MetrosCubicosParaLitros(entrada.nextDouble());
-                    System.out.println(resultado + " litros. ");
-                } catch (InputMismatchException e) {
-                    System.err.println("Erro - Valor digitado inválido. ");
-                    entrada.next();
-                }
-                break;
+                    // 2- Metros cúbicos para litros
+                    try {
+                        System.out.println("Quantos metros cúbicos deseja converter? ");
+                        resultado = calc.MetrosCubicosParaLitros(entrada.nextDouble());
+                        System.out.println(resultado + " litros. ");
+                    } catch (InputMismatchException e) {
+                        System.err.println("Erro - Valor digitado inválido. ");
+                        entrada.next();
+                    }
+                    break;
 
                 case 3:
-				// 3- Metros cúbicos para pés cúbicos
-					try {
-                    System.out.println("Quantos metros cúbicos deseja converter? ");
-                    resultado = calc.MetrosCubicosParaPesCubicos(entrada.nextDouble());
-                    System.out.println(resultado + " pés cúbicos. ");
-                } catch (InputMismatchException e) {
-                    System.err.println("Erro - Valor digitado inválido. ");
-                    entrada.next();
-                }
-                break;
+                    // 3- Metros cúbicos para pés cúbicos
+                    try {
+                        System.out.println("Quantos metros cúbicos deseja converter? ");
+                        resultado = calc.MetrosCubicosParaPesCubicos(entrada.nextDouble());
+                        System.out.println(resultado + " pés cúbicos. ");
+                    } catch (InputMismatchException e) {
+                        System.err.println("Erro - Valor digitado inválido. ");
+                        entrada.next();
+                    }
+                    break;
 
                 case 4:
-				// 4- Galões americanos para polegadas cúbicas
-					try {
-                    System.out.println("Quantos galões americanos deseja converter? ");
-                    resultado = calc.GaloesAmericanosParaPolegadasCubicas(entrada.nextDouble());
-                    System.out.println(resultado + " polegadas cúbicas. ");
-                } catch (InputMismatchException e) {
-                    System.err.println("Erro - Valor digitado inválido. ");
-                    entrada.next();
-                }
-                break;
+                    // 4- Galões americanos para polegadas cúbicas
+                    try {
+                        System.out.println("Quantos galões americanos deseja converter? ");
+                        resultado = calc.GaloesAmericanosParaPolegadasCubicas(entrada.nextDouble());
+                        System.out.println(resultado + " polegadas cúbicas. ");
+                    } catch (InputMismatchException e) {
+                        System.err.println("Erro - Valor digitado inválido. ");
+                        entrada.next();
+                    }
+                    break;
 
                 case 5:
-				// 5- Galões americanos para litros
-					try {
-                    System.out.println("Quantos galões americanos deseja converter? ");
-                    resultado = calc.GaloesAmericanosParaLitros(entrada.nextDouble());
-                    System.out.println(resultado + " litros. ");
-                } catch (InputMismatchException e) {
-                    System.err.println("Erro - Valor digitado inválido. ");
-                    entrada.next();
-                }
-                break;
+                    // 5- Galões americanos para litros
+                    try {
+                        System.out.println("Quantos galões americanos deseja converter? ");
+                        resultado = calc.GaloesAmericanosParaLitros(entrada.nextDouble());
+                        System.out.println(resultado + " litros. ");
+                    } catch (InputMismatchException e) {
+                        System.err.println("Erro - Valor digitado inválido. ");
+                        entrada.next();
+                    }
+                    break;
 
                 case 6:
                     // 6- Sair

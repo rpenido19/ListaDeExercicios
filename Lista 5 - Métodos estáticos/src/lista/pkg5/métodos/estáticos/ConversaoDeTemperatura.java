@@ -11,8 +11,8 @@ public class ConversaoDeTemperatura {
         return f;
 
     }
-    // De graus Fahrenheit (F) para graus Celsius (C): C = (F −32)×+5/9
 
+    // De graus Fahrenheit (F) para graus Celsius (C): C = (F −32)×+5/9
     public static double FahrenheitParaCelsius(double f) {
 
         double c = (f - 32) * 5 / 9;
@@ -20,8 +20,8 @@ public class ConversaoDeTemperatura {
         return c;
 
     }
-    // De graus Celsius (C) para graus Kelvin (K): K =C+273.15
 
+    // De graus Celsius (C) para graus Kelvin (K): K =C+273.15
     public static double CelsiusParaKelvin(double c) {
 
         double k = c + 273.15;
@@ -29,8 +29,8 @@ public class ConversaoDeTemperatura {
         return k;
 
     }
-    // De graus Kelvin (K) para graus Celsius (C): C = K−273.15
 
+    // De graus Kelvin (K) para graus Celsius (C): C = K−273.15
     public static double KelvinParaCelsius(double k) {
 
         double c = k - 273.15;
